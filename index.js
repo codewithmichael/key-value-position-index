@@ -34,7 +34,7 @@
     }
 
     function find(key, value) {
-      if (!isValidKey(key)) {
+      if (arguments.length < 2 || !isValidKey(key)) {
         return [];
       }
       var _index = this._index;

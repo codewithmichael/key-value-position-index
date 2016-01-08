@@ -61,6 +61,13 @@
   assert(populated_t().find(FIRST_KEY, FIRST_KEY_VALUE).length > 0,
     "Calling find() with a stored key and value will return a populated array");
 
+  (function(){
+    var t = new T();
+    t.add('test', undefined, 0);
+    assert(t.find('test').length === 0,
+      "Calling find() with an insufficient number of arguments returns an empty array (instaed of the \"undefined\" index)");
+  }());
+
   //-[ remove ]-*
 
   assert(new T().remove(VALID_POSITION) === false,
