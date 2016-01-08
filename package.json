@@ -1,6 +1,6 @@
 {
   "name": "key-value-position-index",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JavaScript library, based on value-position-index, to store multiple indices under named keys",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/codewithmichael/key-value-position-index#readme",
   "dependencies": {
-    "value-position-index": "github:codewithmichael/value-position-index#ec02049db012246e4684cf3982bf9acf18bf8aaf"
+    "value-position-index": "github:codewithmichael/value-position-index#3230dd78205fe50e706b6db78e64a28f55ff9aeb"
   }
 }

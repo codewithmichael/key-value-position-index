@@ -2,7 +2,7 @@
  * @license Key Value Position Index
  * (c) 2016 Michael Spencer
  * License: MIT
- * Version: 0.1.0
+ * Version: 0.1.1
  */
 ;(function() {
   "use strict";
@@ -34,7 +34,7 @@
     }
 
     function find(key, value) {
-      if (!isValidKey(key)) {
+      if (arguments.length < 2 || !isValidKey(key)) {
         return [];
       }
       var _index = this._index;
