@@ -1,6 +1,6 @@
 {
   "name": "key-value-position-index",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JavaScript library, based on value-position-index, to store multiple indices under named keys",
   "main": "index.js",
   "scripts": {
